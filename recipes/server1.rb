@@ -5,7 +5,7 @@ end
 
 
 file '/var/www/html/index.html' do
-  content '<h1>HELLO, WORLD...!</h1>'
+  content '<h1>THIS IS FIRST APACHE INSTALLATION, WELCOME...!</h1>'
 end
 
 service 'httpd' do
